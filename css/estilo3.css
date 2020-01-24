@@ -8,16 +8,66 @@ Selector de identificador ( #id )
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 * {
+    margin: 0px;
     font-family: 'Bangers';
 }
 
-body {
-    margin: 0px;
-}
-
-#CuadroArriba {
-    margin: 0px;
+#Contenedor {
+    margin: auto;
     width: 100%;
     border: 0px;
     background-color: #4267B2;
 }
+
+#facebook {
+    float: left;
+    margin: auto;
+    text-align: center;
+    text-size: 20px;
+    width: 50%;
+    height: 90px;
+    border: 0px;
+    background-color: #4267B2;
+    color: white;
+}
+
+h1 {
+    line-height: 90px;
+}
+
+#textos {
+    float: left;
+    margin: auto;
+    text-align: bottom;
+    width: 50%;
+    height: 30px;
+    border: 0px;
+    background-color: #4267B2;
+    color: white;
+}
+
+h2 {
+    margin-top: 16px;
+    font-size: 0.8em;
+}
+
+#inputs {
+    float: right;
+    margin: auto;
+    width: 50%;
+    height: 30px;
+    border: 0px;
+    background-color: #4267B2;
+    color: white;
+}
+
+#olvidado {
+    float: right;
+    margin: auto;
+    width: 50%;
+    height: 30px;
+        border: 0px;
+    background-color: #4267B2;
+    color: white;
+}
+

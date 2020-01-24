@@ -28,7 +28,9 @@ body{
    float: left;
    margin: auto;
    background-color: rgb(227, 227, 240);
-   padding:30px; 
+   padding:30px;
+   margin-top: 10px;
+    
 }
 
 #cuadroPrincipal p{ /* Los parrafos dentro del elemento con id cuadroPrincipal} */
@@ -48,6 +50,7 @@ body{
     font-size: 2.6em;
     font-weight: bolder;
     line-height: 5px;
+    line-height: 100px;
    }
 
 .fondogris {

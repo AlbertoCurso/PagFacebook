@@ -15,6 +15,7 @@ Selector de identificador ( #id )
 
 
 #Cabecera {
+    display: block;
     margin: auto;
     width: 100%;
     border: 0px;
@@ -39,24 +40,13 @@ h1 {
     line-height: 90px;
 }
 
-#texto1 {
+#correo {
     float: left;
     margin: auto;
     text-align: left;
     width: 9%;
-    height: 30px;
     border: 0px;
-    background-color: #4267B2;
-    color: white;
-}
-
-#texto2 {
-    float: left;
-    margin: auto;
-    text-align: bottom;
-    width: 41%;
-    height: 30px;
-    border: 0px;
+    height: 190px;
     background-color: #4267B2;
     color: white;
 }
@@ -67,39 +57,14 @@ h2 {
     line-height: 30px;
 }
 
-#inputs {
-    float: right;
+#pwd {
+    float: left;
     margin: auto;
-    width: 50%;
-    height: 30px;
-    border: 0px;
-    background-color: #4267B2;
-    color: white;
-}
-
-#password {
-    margin: auto;
-    margin-left: 35px;
-}
-
-#boton {
-    margin: auto;
-    margin-left: 105px;
-    background-color: rgb(66, 87, 178);
-    border-color: black;
-    border: 0.5;
-    color: white;
-}
-
-#olvidado {
-    float: right;
-    margin: auto;
-    color: grey;
-    font-size: 0.8em;
-    padding-left: 18px;
+    text-align: left;
     width: 41%;
-    height: 30px;
-        border: 0px;
+    border: 0px;
+    height: 90px;
     background-color: #4267B2;
+    color: white;
 }
 
